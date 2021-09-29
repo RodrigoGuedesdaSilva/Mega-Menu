@@ -8,12 +8,12 @@ $(document).ready(function(){
     function resizeEnd(){
         smallScreenMenu();
     }
-/*
+
     $(window).resize(function(){
         clearTimeout(temp);
         temp = setTimeout(resizeEnd, 100);
         resetMenu();
-    });*/
+    });
 });
 
 
